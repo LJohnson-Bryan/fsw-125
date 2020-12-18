@@ -1,0 +1,43 @@
+input {
+    padding: 7px 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    padding: 9px 24px;
+    border-radius: 9999px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.edit {
+    background: linear-gradient(to bottom, #4098D7, #2680C2);
+    color: #E0FCFF;
+    box-shadow: 0px 3px 0px rgba(0,0,0, 0.3);
+}
+
+.edit:hover {
+    background: linear-gradient(to bottom, #2680C2, #186FAF);
+}
+
+.delete {
+    background: linear-gradient(to bottom, #BA2525, #A61B1B);
+    color: #E0FCFF;
+    box-shadow: 0px 3px 0px rgba(0,0,0, 0.3);
+}
+
+.delete:hover {
+    background: linear-gradient(to bottom, #A61B1B, #911111);
+}
+
+label {
+margin-bottom: 5px;
+font-size: 18px;
+font-weight: bold;
+}

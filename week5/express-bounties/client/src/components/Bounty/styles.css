@@ -1,0 +1,11 @@
+.jedi-bg {
+    background-image: url('../../images/jedi.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.sith-bg {
+    background-image: url('../../images/sith.png');
+    background-position: center;
+    background-size: cover;
+}
