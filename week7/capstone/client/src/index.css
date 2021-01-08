@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './utils.css';
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F0F4F8;
+  border-top: 3px solid #2680C2;
+}
+
+.line {
+  height: 3px;
+  width: 60px;
+  background-color: #2680C2;
+  margin: 25px auto;
+}
+
+.contents {
+  margin-top: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  min-height: 85vh;
+}
+
+a {
+  text-decoration: none;
+  color: #102A43;
+  max-height: 100%;
+}
